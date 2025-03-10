@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #6EC1E4;
+}
+
+p, li, a, span, label {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+input {
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+.contact-input {
+    width: 400px;
+}
+
+.btn {
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+.btn-primary {
+    background-color: #FF9A8B;
+}
+
+section {
+    margin: 5% 15%;
+}
